@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TravelBloom - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-inner">
+
+    <div class="logo">
+      <span class="logo-icon">✈️</span>
+      <span class="logo-text">TravelBloom</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="./travel_recommendation.html" class="active">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- ✅ Search bar ONLY on Home -->
+    <div class="search-bar">
+      <input id="search-input" type="text" placeholder="Enter a destination or keyword">
+      <button id="search-btn">Search</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+
+  </div>
+</header>
+
+<main class="hero">
+  <div class="hero-content">
+
+    <h1>Welcome to TravelBloom</h1>
+
+    <p>
+      TravelBloom is your gateway to discovering stunning destinations around
+      the world. Search for cities, explore cultures, and plan unforgettable adventures.
+    </p>
+
+    <p>
+      We help travelers find inspiration, guides, and hidden gems — all in one place.
+    </p>
+
+    <a href="#" class="hero-button">Start Exploring</a>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+  </div>
+</main>
+
+<section id="results-container" class="results-container"></section>
+
+<script src="travel_recommendation.js"></script>
+</body>
+</html>
